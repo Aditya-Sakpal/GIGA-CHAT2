@@ -1,4 +1,4 @@
-uploadFileimport express, { Request, Response } from 'express';
+import express, { Request, Response } from 'express';
 import connect from './db';
 import bcrypt from "bcryptjs";
 import nodemailer from 'nodemailer';
